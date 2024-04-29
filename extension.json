@@ -1,0 +1,69 @@
+{
+  "displayName": "CSS Marketing Actions (temp)",
+  "iconPath": "src/resources/icons/CSS_cyan_rgb.svg",
+  "name": "css-marketing-actions-temp",
+  "platform": "web",
+  "version": "1.0.4",
+  "description": "Set Marketing Pixels (META / Google / Pinterest / TikTok)",
+  "author": {
+    "name": "Patrick Hegnauer"
+  },
+  "viewBasePath": "src/view/",
+  "actions": [
+    {
+      "displayName": "Floodlight Conversion Event",
+      "name": "floodlight-conversion-event",
+      "schema": {
+        "$schema": "http://json-schema.org/draft-04/schema#",
+        "type": "object",
+        "properties": {}
+      },
+      "libPath": "src/lib/actions/floodlightConversionEvent.js",
+      "viewPath": "actions/floodlightConversionEvent.html"
+    },
+    {
+      "displayName": "Google Ads Conversion Event",
+      "name": "google-ads-conversion-event",
+      "schema": {
+        "$schema": "http://json-schema.org/draft-04/schema#",
+        "type": "object",
+        "properties": {}
+      },
+      "libPath": "src/lib/actions/googleAdsConversionEvent.js",
+      "viewPath": "actions/googleAdsConversionEvent.html"
+    },
+    {
+      "displayName": "Facebook Conversion Event",
+      "name": "facebook-conversion-event",
+      "schema": {
+        "$schema": "http://json-schema.org/draft-04/schema#",
+        "type": "object",
+        "properties": {}
+      },
+      "libPath": "src/lib/actions/facebookConversionEvent.js",
+      "viewPath": "actions/facebookConversionEvent.html"
+    },
+    {
+      "displayName": "Pinterest Conversion Event",
+      "name": "pinterest-conversion-event",
+      "schema": {
+        "$schema": "http://json-schema.org/draft-04/schema#",
+        "type": "object",
+        "properties": {}
+      },
+      "libPath": "src/lib/actions/pinterestConversionEvent.js",
+      "viewPath": "actions/pinterestConversionEvent.html"
+    },
+    {
+      "displayName": "TikTok Conversion Event",
+      "name": "tiktok-conversion-event",
+      "schema": {
+        "$schema": "http://json-schema.org/draft-04/schema#",
+        "type": "object",
+        "properties": {}
+      },
+      "libPath": "src/lib/actions/tiktokConversionEvent.js",
+      "viewPath": "actions/tiktokConversionEvent.html"
+    }
+  ]
+}
