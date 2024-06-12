@@ -3,7 +3,7 @@
   "iconPath": "src/resources/icons/CSS_cyan_rgb.svg",
   "name": "css-marketing-actions-temp",
   "platform": "web",
-  "version": "1.0.4",
+  "version": "1.0.7",
   "description": "Set Marketing Pixels (META / Google / Pinterest / TikTok)",
   "author": {
     "name": "Patrick Hegnauer"
@@ -64,6 +64,16 @@
       },
       "libPath": "src/lib/actions/tiktokConversionEvent.js",
       "viewPath": "actions/tiktokConversionEvent.html"
+    },
+    {
+      "displayName": "Send Redirect Information",
+      "name": "send-redirect-information",
+      "schema": {
+        "$schema": "http://json-schema.org/draft-04/schema#",
+        "type": "object",
+        "properties": {}
+      },
+      "libPath": "src/lib/actions/sendRedirectInformation.js"
     }
   ]
 }
