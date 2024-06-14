@@ -3,7 +3,7 @@
   "iconPath": "src/resources/icons/CSS_cyan_rgb.svg",
   "name": "css-marketing-actions-temp",
   "platform": "web",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Set Marketing Pixels (META / Google / Pinterest / TikTok)",
   "author": {
     "name": "Patrick Hegnauer"
