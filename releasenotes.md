@@ -1,4 +1,6 @@
 # Release Notes
+## Coconut v1.1.7
+- Added Set User Information for persisting data elements
 ## Coconut v1.1.4
 - Added Store Response Token Information for storing the experience name of target
 ## Coconut v1.1.1
